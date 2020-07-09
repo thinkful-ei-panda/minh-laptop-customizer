@@ -32,7 +32,8 @@ class App extends Component {
       this.setState({
         selected
       });
-    }
+    },
+    features: this.props.features
   };
 
 
